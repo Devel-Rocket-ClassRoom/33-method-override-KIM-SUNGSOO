@@ -68,3 +68,36 @@ class Cat1 : Animal1
 {
     public override void Speak() => Console.WriteLine("야옹!");
 }
+
+class Parent2
+{
+    public virtual void Greet()
+    {
+        Console.WriteLine("안녕하세요.");
+    }
+}
+
+class Child2 : Parent2
+{
+    public override void Greet()
+    {
+        base.Greet();
+        Console.WriteLine("반갑습니다.");
+    }
+}
+
+class Parent3
+{
+    public virtual void Work() => Console.WriteLine("프로그래머");
+}
+
+class Child3 : Parent3
+{
+    public override void Work() => base.Work();  // 부모 메서드 그대로 호출
+}
+
+class GrandChild3 : Child3
+{
+    // Child에서 sealed로 봉인하지 않았다면 재정의 가능
+    public override void Work() => Console.WriteLine("프로게이머");
+}

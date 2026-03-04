@@ -83,7 +83,10 @@ Cat Eat
 
 ### 4-1. base 키워드 기본
 
-`Parent` 클래스에 `virtual` 메서드 `Greet()`를 정의하고, `Child` 클래스에서 `override`하여 `base.Greet()`로 부모 메서드를 먼저 호출한 후 추가 메시지를 출력하세요.
+`Parent` 클래스에 `virtual` 메서드 
+`Greet()`를 정의하고, `Child` 클래스에서 
+`override`하여 `base.Greet()`로 부모 메서드를 
+먼저 호출한 후 추가 메시지를 출력하세요.
 
 **실행 결과**
 
@@ -94,7 +97,10 @@ Cat Eat
 
 ### 4-2. base 키워드 활용
 
-`Parent`, `Child`, `GrandChild` 세 단계의 상속 구조를 만드세요. `Parent`에 `virtual Work()`를 정의하고, `Child`는 `base.Work()`로 부모 메서드를 그대로 호출하며, `GrandChild`는 새로운 동작을 수행합니다.
+`Parent`, `Child`, `GrandChild` 세 단계의 상속 구조를 만드세요. 
+`Parent`에 `virtual Work()`를 정의하고, 
+`Child`는 `base.Work()`로 부모 메서드를 그대로 호출하며, 
+`GrandChild`는 새로운 동작을 수행합니다.
 
 **실행 결과**
 

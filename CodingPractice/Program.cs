@@ -10,7 +10,9 @@ class CodPrac
         //Prac_1_2();
         //Prac_2();
         //Prac_3_1();
-        Prac_3_2();
+        //Prac_3_2();
+        //Prac_4_1();
+        Prac_4_2();
     }
 
     static void Prac_1_1()
@@ -59,6 +61,44 @@ class CodPrac
         Animal1 cat1 = new Cat1();
         cat1.Speak();
     }
+    static void Prac_4_1()
+    {
+        Child2 child2 = new Child2();
+        child2.Greet();
+    }
 
+    static void Prac_4_2()
+    {
+        new Parent3().Work();
+        new Child3().Work();
+        new GrandChild3().Work();
+    }
+
+    static void Prac_5()
+    {
+
+    }
+
+    static void Prac_6_1()
+    {
+
+    }
+    static void Prac_6_2()
+    {
+
+    }
+    static void Prac_6_3()
+    {
+
+    }
+
+    static void Prac_7_1()
+    {
+
+    }
+    static void Prac_7_2()
+    {
+
+    }
 
 }
